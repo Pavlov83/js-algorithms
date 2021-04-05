@@ -23,7 +23,25 @@ function factorializeWhile(num){
         result *= num;
     }
 
+<<<<<<< HEAD
     return result
 }
 
 console.log(factorializeWhile(40))
+=======
+}
+
+
+function factorializeWhile(num){
+    var result = num;
+
+    if(num === 0 || num === 1) return 1;
+
+    while(num > 1){
+        num--;
+        result *= num
+    }
+    return result;
+}
+console.log(factorializeWhile(21))
+>>>>>>> 2c1c50befae15f7cda6d9f1e0488e018c3271cb9
