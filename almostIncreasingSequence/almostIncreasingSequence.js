@@ -12,7 +12,7 @@ function almostIncreasingSequence(sequence){
                 }
         }
     }
-
+    
     return count <=1;
 
 
